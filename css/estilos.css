@@ -1,0 +1,306 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: black !important; }
+
+.contenedorM {
+  width: 100%; }
+
+nav {
+  text-align: center; }
+  nav div ul a ol {
+    color: white;
+    display: inline-block;
+    padding: 50px; }
+    nav div ul a ol ol {
+      font-family: "Roboto", sans-serif; }
+
+.logoM, .logoM--color {
+  display: flex;
+  justify-content: center; }
+
+.logoM--color {
+  background: linear-gradient(#052026, #030C0D); }
+
+.logoM2 {
+  height: 185px; }
+
+p {
+  color: white;
+  font-family: "Besley", serif; }
+
+.imagenP, .imgP {
+  width: 100%;
+  height: auto; }
+
+.texto1A {
+  margin: 100px 100px 100px 100px;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  background-color: #052026; }
+
+.fotosS {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 150px;
+  margin-top: 80px;
+  margin-bottom: 100px; }
+
+.grilla {
+  color: white;
+  font-family: "Besley", serif;
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 100px 100px 100px;
+  grid-template-areas: "sector1 sector1 sector1" "sector2 sector2 sector2" "sector3 sector3 sector3";
+  justify-content: center; }
+
+.tituloMenu, .tituloMenu--color {
+  font-family: "Besley", serif; }
+
+.tituloMenu--color {
+  color: white; }
+
+.tabla {
+  grid-area: sector1; }
+
+.fotosS--image1:hover, .fotosS--image2:hover, .fotosS--image3:hover, .fotosS--image4:hover {
+  transform: translate(10px, 20px);
+  transition: all 1s; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.fotosSP {
+  text-align: center;
+  margin: 10px;
+  background-color: #1E3C40;
+  color: white;
+  font-family: "Besley", serif; }
+
+.h1Contacto, .tituloMenu, .tituloMenu--color, .h1Contacto--color, .h1Contacto--text, .h1DE, .h1DE--color, .h1DE--text, .h1Nosotros, .h1Nosotros--color, .p1DE {
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-iteration-count: initial;
+  text-align: center; }
+
+.h1Contacto--color {
+  color: white; }
+
+.h1Contacto--text {
+  font-family: "Besley", serif; }
+
+.h1DE--color {
+  color: white; }
+
+.h1DE--text {
+  font-family: "Besley", serif; }
+
+.p1DE {
+  color: white;
+  font-family: "Besley", serif; }
+
+.grillaDE1 {
+  display: grid;
+  grid-template-rows: 100% 200px;
+  grid-template-areas: "IMG" "TEXT";
+  background-color: #0e1b1d; }
+
+.imgNY {
+  justify-self: center;
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-iteration-count: initial;
+  opacity: 0.8;
+  margin: 25px;
+  height: 350px; }
+
+.p2DE {
+  color: white;
+  font-family: "Besley", serif;
+  background-color: green;
+  grid-area: TEXT;
+  text-align: center;
+  width: 100%;
+  align-self: center; }
+
+.videoYT {
+  width: 100%;
+  padding-bottom: 50%;
+  position: relative; }
+  .videoYT iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%; }
+
+footer {
+  background-color: #0e1b1d;
+  padding-top: 40px;
+  padding-bottom: 40px; }
+  footer .redesSociales {
+    text-align: center; }
+    footer .redesSociales a {
+      color: white;
+      text-decoration: none;
+      font-family: "Roboto", sans-serif;
+      display: inline-block; }
+
+.redesSociales a:hover {
+  opacity: 0.8; }
+
+.footerList {
+  text-align: center;
+  padding-top: 10px; }
+
+.footerList li {
+  display: inline-block;
+  padding: 0 15px; }
+
+.footerList li a {
+  text-decoration: none;
+  opacity: 0.7;
+  color: white;
+  margin-top: 0px;
+  padding: 0px;
+  font-size: 20px; }
+
+.footerList li a:hover {
+  opacity: 1; }
+
+.footerP {
+  text-align: center;
+  font-size: 11px; }
+
+.mainDE {
+  height: 1600px; }
+
+.botonMasinfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.h1Nosotros--color {
+  color: white;
+  font-family: "Besley", serif; }
+
+.contenedorC {
+  background-color: #0e1b1d;
+  margin: 20px 20px 20px 20px; }
+
+.textarea-One {
+  max-width: 100%; }
+
+.form-label, .form-check-label {
+  color: white !important; }
+
+.nosotrosClass {
+  height: 1300px; }
+  .nosotrosClass .nosotrosText {
+    padding-top: 50px;
+    background-color: #0e1b1d; }
+
+.h1Nosotros, .h1Nosotros--color {
+  color: white;
+  font-family: "Besley", serif; }
+
+.Gmaps iframe {
+  width: 100%;
+  height: 350px; }
+
+@media only screen and (max-width: 800px) {
+  .texto1A {
+    margin: 100px 100px 100px 100px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    opacity: 1;
+    overflow: auto; }
+  .fotosS {
+    display: grid;
+    grid-template-columns: 200px 200px; }
+  .fotosS--image1 {
+    width: 100%;
+    height: 100px; }
+  .fotosS--image2 {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px; }
+  .fotosS--image3 {
+    width: 100%;
+    height: 100px; }
+  .fotosS--image4 {
+    width: 100%;
+    height: 100px; }
+  footer {
+    font-size: 15px; }
+  .grillaNosotros1 {
+    display: inline-block; }
+  .grilla {
+    display: inline-block;
+    padding: 60px; }
+  .imgNY {
+    height: 250px;
+    margin: 50px;
+    max-width: 100%;
+    height: auto; }
+  .p2DE {
+    max-width: 100%; }
+  .footer--ContainerS {
+    margin-bottom: 50px;
+    display: block;
+    align-items: center; } }
+
+@media only screen and (max-width: 801px) {
+  .footer--ContainerS {
+    display: block; }
+  .fotosS {
+    display: grid;
+    grid-template-columns: 200px 200px; }
+  .fotosS--image1 {
+    width: 100%;
+    height: 120px; }
+  .fotosS--image2 {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px; }
+  .fotosS--image3 {
+    width: 100%;
+    height: 120px; }
+  .fotosS--image4 {
+    width: 100%;
+    height: 120px; } }
+
+@media only screen and (max-width: 995px) {
+  .fotosS {
+    display: grid;
+    grid-template-columns: 200px 200px; }
+  .fotosS--image1 {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px; }
+  .fotosS--image2 {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px; }
+  .fotosS--image3 {
+    width: 100%;
+    height: 100px; }
+  .fotosS--image4 {
+    width: 100%;
+    height: 100px; } }
+
+@media only screen and (min-width: 1000px) {
+  .fotosS {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 150px;
+    margin-top: 80px;
+    margin-bottom: 100px; } }
