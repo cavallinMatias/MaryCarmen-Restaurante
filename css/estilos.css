@@ -5,9 +5,6 @@
 body {
   background-color: black !important; }
 
-.contenedorM {
-  width: 100%; }
-
 nav {
   text-align: center; }
   nav div ul a ol {
@@ -50,23 +47,11 @@ p {
   margin-top: 80px;
   margin-bottom: 100px; }
 
-.grilla {
-  color: white;
-  font-family: "Besley", serif;
-  display: grid;
-  grid-template-columns: 300px 300px 300px;
-  grid-template-rows: 100px 100px 100px;
-  grid-template-areas: "sector1 sector1 sector1" "sector2 sector2 sector2" "sector3 sector3 sector3";
-  justify-content: center; }
-
 .tituloMenu, .tituloMenu--color {
   font-family: "Besley", serif; }
 
 .tituloMenu--color {
   color: white; }
-
-.tabla {
-  grid-area: sector1; }
 
 .fotosS--image1:hover, .fotosS--image2:hover, .fotosS--image3:hover, .fotosS--image4:hover {
   transform: translate(10px, 20px);
@@ -181,11 +166,6 @@ footer {
 .mainDE {
   height: 1600px; }
 
-.botonMasinfo {
-  display: flex;
-  flex-direction: row;
-  justify-content: center; }
-
 .h1Nosotros--color {
   color: white;
   font-family: "Besley", serif; }
@@ -240,11 +220,6 @@ footer {
     height: 100px; }
   footer {
     font-size: 15px; }
-  .grillaNosotros1 {
-    display: inline-block; }
-  .grilla {
-    display: inline-block;
-    padding: 60px; }
   .imgNY {
     height: 250px;
     margin: 50px;

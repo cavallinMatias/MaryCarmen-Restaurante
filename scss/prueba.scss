@@ -14,9 +14,6 @@ $color4: #052026;
 body{
     background-color: $colorB !important;
 }
-.contenedorM{
-    width: $the100;
-}
 nav{
     text-align: center;
 
@@ -66,27 +63,13 @@ height: 150px;
 margin-top: 80px;
 margin-bottom: 100px;
 }
-.grilla{
-    color: $colorT;
-    font-family: $font2;
-    display: grid;
-    grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 100px 100px 100px;
-    grid-template-areas: "sector1 sector1 sector1"
-                         "sector2 sector2 sector2"
-                         "sector3 sector3 sector3";
-    justify-content: center;          
-}
 .tituloMenu{
 @extend .h1Contacto;
 font-family: $font2;
 }
 .tituloMenu--color{
-    @extend .tituloMenu;
-    color: $colorT;
-}
-.tabla{
-grid-area: sector1;
+@extend .tituloMenu;
+color: $colorT;
 }
 .fotosS--image1:hover{
 transform: translate(10px,20px);
@@ -109,7 +92,7 @@ opacity: 0;
 opacity: 1;
     }
  }
- .fotosSP{
+.fotosSP{
 text-align: center;
 margin: 10px;
 background-color:#1E3C40;
@@ -225,11 +208,6 @@ padding: 0 15px;
 .mainDE{
     height: 1600px;
 }
-.botonMasinfo{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
 .h1Nosotros{
     @extend .h1Contacto;
 }
@@ -271,55 +249,48 @@ padding: 0 15px;
 }
 
 @media only screen and (max-width: 800px){
-.texto1A{
-        margin: 100px 100px 100px 100px;
-        color: $colorT;
-        font-size: 15px;
-        text-align: center;
-        opacity: 1;
-        overflow: auto;
+    .texto1A{
+    margin: 100px 100px 100px 100px;
+    color: $colorT;
+    font-size: 15px;
+    text-align: center;
+    opacity: 1;
+    overflow: auto;
     }
     .fotosS{
-        display: grid;
-        grid-template-columns: 200px 200px;
+    display: grid;
+    grid-template-columns: 200px 200px;
     }
     .fotosS--image1{
-        width: $the100;
-        height: 100px;
+    width: $the100;
+    height: 100px;
     }
     .fotosS--image2{
-        width: $the100;
-        height: 100px;
-        margin-bottom: 20px;
+    width: $the100;
+    height: 100px;
+    margin-bottom: 20px;
     }
     .fotosS--image3{
-        width: $the100;
-        height: 100px;
+    width: $the100;
+    height: 100px;
     }
     .fotosS--image4{
-        width: $the100;
-        height: 100px;
+    width: $the100;
+    height: 100px;
     }
- footer{
-     font-size: 15px;
+    footer{
+    font-size: 15px;
  }
- .grillaNosotros1{
-     display: inline-block;
+    .imgNY{
+    height: 250px;
+    margin: 50px;
+    max-width: $the100;
+    height: auto;
  }
- .grilla{
-     display: inline-block;
-     padding: 60px;
- }
- .imgNY{
-   height: 250px;
-   margin: 50px;
-   max-width: $the100;
-   height: auto;
- }
- .p2DE{
+    .p2DE{
      max-width: $the100;
  }
- .footer--ContainerS{
+    .footer--ContainerS{
      margin-bottom: 50px;
     display: block;
     align-items: center;
