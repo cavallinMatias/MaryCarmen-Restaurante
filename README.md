@@ -13,7 +13,7 @@
 <li>Git & Github.</li>
 <li>Bootstrap (framework).</li>
 <li>SASS.</li>
-<li>000webhost.</li>
+<li>000webhost. (link: https://marycarmenrestaurant.000webhostapp.com/)</li>
 <li>Balsamiq.</li>
 <li>Nodemon para SASS.</li>
 </ul>
